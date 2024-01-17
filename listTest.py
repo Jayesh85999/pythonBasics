@@ -69,13 +69,15 @@ print(greeting_function(sample_function(2)))
 
 def compare_numbers(inputnumber1, inputnumber2, inputnumber3,):
     if(inputnumber1>inputnumber2 and inputnumber1 >inputnumber3):
-        print(inputnumber1)
+        return inputnumber1
 
     elif(inputnumber2>inputnumber3 and inputnumber2>inputnumber1):
-        print(inputnumber2)
+        return inputnumber2
 
     elif(inputnumber3>inputnumber2 and inputnumber3>inputnumber1):
-        print(inputnumber3)
+        return inputnumber3
 
 
-print(compare_numbers(66,5,6))
+
+print(compare_numbers(66, 8 , 9))
+
